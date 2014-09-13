@@ -338,7 +338,7 @@ public class Main extends javax.swing.JFrame {
         jMenu5.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
 
         jMenuItem54.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        jMenuItem54.setText("จบการทำงาน");
+        jMenuItem54.setText("จบการทำงาน (Exit)");
         jMenuItem54.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem54ActionPerformed(evt);
