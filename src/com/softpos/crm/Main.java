@@ -1,5 +1,19 @@
 package com.softpos.crm;
 
+import report.softpos.crm.Report_Amountbranch;
+import report.softpos.crm.Report_Amountbydate;
+import report.softpos.crm.Report_Amountp1;
+import report.softpos.crm.Report_Dept;
+import report.softpos.crm.Report_Eventamount;
+import report.softpos.crm.Report_Historyb;
+import report.softpos.crm.Report_Jtrophy;
+import report.softpos.crm.Report_Pointuser;
+import report.softpos.crm.Report_Servicetype;
+import report.softpos.crm.Report_Totalamount;
+import report.softpos.crm.Report_Ttrophy;
+import report.softpos.crm.Report_byplu;
+import report.softpos.crm.Report_totaltrophy;
+
 public class Main extends javax.swing.JFrame {
 
     public Main() {
@@ -232,57 +246,122 @@ public class Main extends javax.swing.JFrame {
 
         jMenuItem30.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem30.setText("รายงานยอดการซื้อประจำวัน (สรุปต่อวัน)");
+        jMenuItem30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem30ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem30);
 
         jMenuItem31.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem31.setText("รายงานยอดการซื้อสะสม และเฉลี่ยต่อครั้ง (สรุปเป็นช่วง)");
+        jMenuItem31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem31ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem31);
 
         jMenuItem32.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem32.setText("รายงานประวัติการซื้อ และแต้มที่ได้ของสมาชิก (การซื้อ/ครั้ง)");
+        jMenuItem32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem32ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem32);
 
         jMenuItem33.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem33.setText("รายงานยอดการซื้อช่วงจัดกิจกรรม");
+        jMenuItem33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem33ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem33);
 
         jMenuItem34.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem34.setText("รายงานประวัติการซื้อ PLU");
+        jMenuItem34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem34ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem34);
         jMenu3.add(jSeparator9);
 
         jMenuItem35.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem35.setText("รายงานอันดับการซื้อของสมาชิก (By Total Amount)");
+        jMenuItem35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem35ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem35);
 
         jMenuItem36.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem36.setText("รายงานอันดับการซื้อของสมาชิก (By Service Type)");
+        jMenuItem36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem36ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem36);
 
         jMenuItem37.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem37.setText("รายงานอันดับการซื้อของสมาชิก (By Dept.)");
+        jMenuItem37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem37ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem37);
 
         jMenuItem38.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem38.setText("รายงานอันดับการซื้อของสมาชิก (By PLU)");
+        jMenuItem38.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem38ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem38);
         jMenu3.add(jSeparator10);
 
         jMenuItem39.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem39.setText("รายงานสรุปยอดซื้อของสมาชิก (ของแต่ละสาขา)");
+        jMenuItem39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem39ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem39);
         jMenu3.add(jSeparator11);
 
         jMenuItem40.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem40.setText("รายงานการจองของรางวัล");
+        jMenuItem40.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem40ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem40);
 
         jMenuItem41.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem41.setText("รายงานการส่งของรางวัล");
+        jMenuItem41.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem41ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem41);
 
         jMenuItem42.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem42.setText("รายงานของรางวัลคงเหลือ");
+        jMenuItem42.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem42ActionPerformed(evt);
+            }
+        });
         jMenu3.add(jMenuItem42);
 
         jMenuItem43.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
@@ -368,6 +447,71 @@ public class Main extends javax.swing.JFrame {
     private void jMenuItem54ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem54ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jMenuItem54ActionPerformed
+
+    private void jMenuItem30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem30ActionPerformed
+        Report_Amountbydate frm = new Report_Amountbydate(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem30ActionPerformed
+
+    private void jMenuItem31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem31ActionPerformed
+        Report_Amountp1 frm = new Report_Amountp1(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem31ActionPerformed
+
+    private void jMenuItem32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem32ActionPerformed
+        Report_Pointuser frm = new Report_Pointuser(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem32ActionPerformed
+
+    private void jMenuItem33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem33ActionPerformed
+        Report_Eventamount frm = new Report_Eventamount(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem33ActionPerformed
+
+    private void jMenuItem34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem34ActionPerformed
+        Report_Historyb frm = new Report_Historyb(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem34ActionPerformed
+
+    private void jMenuItem35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem35ActionPerformed
+        Report_Totalamount frm = new Report_Totalamount(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem35ActionPerformed
+
+    private void jMenuItem36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem36ActionPerformed
+        Report_Servicetype frm = new Report_Servicetype(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem36ActionPerformed
+
+    private void jMenuItem37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem37ActionPerformed
+        Report_Dept frm = new Report_Dept(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem37ActionPerformed
+
+    private void jMenuItem38ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem38ActionPerformed
+        Report_byplu frm = new Report_byplu(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem38ActionPerformed
+
+    private void jMenuItem39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem39ActionPerformed
+        Report_Amountbranch frm = new Report_Amountbranch(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem39ActionPerformed
+
+    private void jMenuItem40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem40ActionPerformed
+        Report_Jtrophy frm = new Report_Jtrophy(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem40ActionPerformed
+
+    private void jMenuItem41ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem41ActionPerformed
+        Report_Ttrophy frm = new Report_Ttrophy(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem41ActionPerformed
+
+    private void jMenuItem42ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem42ActionPerformed
+        Report_totaltrophy frm = new Report_totaltrophy(this, true);
+        frm.setVisible(true);
+    }//GEN-LAST:event_jMenuItem42ActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
