@@ -446,6 +446,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe1b;&#xe23;&#xe30;&#xe40;&#xe20;&#xe17;&#xe2d;&#xe31;&#xe15;&#xe23;&#xe32;&#xe41;&#xe15;&#xe49;&#xe21; &#xe15;&#xe32;&#xe21;&#xe2a;&#xe32;&#xe02;&#xe32;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem43ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator12">
             </MenuItem>
@@ -456,6 +459,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe23;&#xe32;&#xe22;&#xe25;&#xe30;&#xe40;&#xe2d;&#xe35;&#xe22;&#xe14;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem44ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem45">
               <Properties>
@@ -464,6 +470,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe23;&#xe32;&#xe22;&#xe25;&#xe30;&#xe40;&#xe2d;&#xe35;&#xe22;&#xe14;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01; &#xe15;&#xe32;&#xe21;&#xe0a;&#xe48;&#xe27;&#xe07;&#xe01;&#xe32;&#xe23;&#xe0b;&#xe37;&#xe49;&#xe2d;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem45ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem46">
               <Properties>
@@ -472,6 +481,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe41;&#xe15;&#xe49;&#xe21;&#xe04;&#xe07;&#xe40;&#xe2b;&#xe25;&#xe37;&#xe2d;&#xe1b;&#xe31;&#xe08;&#xe08;&#xe38;&#xe1a;&#xe31;&#xe19; &#xe02;&#xe2d;&#xe07;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem46ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem47">
               <Properties>
@@ -480,6 +492,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;&#xe17;&#xe35;&#xe48;&#xe40;&#xe02;&#xe49;&#xe32;&#xe23;&#xe48;&#xe27;&#xe21;&#xe01;&#xe34;&#xe08;&#xe01;&#xe23;&#xe23;&#xe21;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem47ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem48">
               <Properties>
@@ -488,6 +503,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;&#xe17;&#xe35;&#xe48;&#xe43;&#xe0a;&#xe49;&#xe42;&#xe1b;&#xe23;&#xe42;&#xe21;&#xe0a;&#xe31;&#xe19;&#xe1a;&#xe31;&#xe15;&#xe23;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem48ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem49">
               <Properties>
@@ -496,6 +514,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe01;&#xe32;&#xe23;&#xe15;&#xe48;&#xe2d;&#xe2d;&#xe32;&#xe22;&#xe38;&#xe1a;&#xe31;&#xe15;&#xe23;&#xe02;&#xe2d;&#xe07;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01; (&#xe23;&#xe32;&#xe22;&#xe27;&#xe31;&#xe19;)"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem49ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem50">
               <Properties>
@@ -504,6 +525,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe1b;&#xe23;&#xe30;&#xe27;&#xe31;&#xe15;&#xe34;&#xe41;&#xe15;&#xe49;&#xe21;&#xe1e;&#xe34;&#xe40;&#xe28;&#xe29;&#xe23;&#xe32;&#xe22;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem50ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem51">
               <Properties>
@@ -512,6 +536,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe23;&#xe27;&#xe21;&#xe1b;&#xe23;&#xe30;&#xe27;&#xe31;&#xe15;&#xe34;&#xe41;&#xe15;&#xe49;&#xe21; &#xe23;&#xe31;&#xe1a;&#xe40;&#xe02;&#xe49;&#xe32;/&#xe43;&#xe0a;&#xe49;&#xe44;&#xe1b; &#xe02;&#xe2d;&#xe07;&#xe2a;&#xe21;&#xe32;&#xe0a;&#xe34;&#xe01;"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem51ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator13">
             </MenuItem>
@@ -522,6 +549,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe15;&#xe23;&#xe27;&#xe08;&#xe2a;&#xe2d;&#xe1a;&#xe22;&#xe2d;&#xe14;&#xe0b;&#xe37;&#xe49;&#xe2d; &#xe41;&#xe25;&#xe30;&#xe41;&#xe15;&#xe49;&#xe21;&#xe2a;&#xe30;&#xe2a;&#xe21; (Diff. Report)"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem52ActionPerformed"/>
+              </Events>
             </MenuItem>
             <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator14">
             </MenuItem>
@@ -532,6 +562,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe1a;&#xe31;&#xe19;&#xe17;&#xe36;&#xe01;&#xe40;&#xe2b;&#xe15;&#xe38;&#xe01;&#xe32;&#xe23;&#xe13;&#xe4c; (Log File)"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem53ActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
