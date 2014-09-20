@@ -7,22 +7,11 @@ import report.softpos.crm.Report_Dept;
 import report.softpos.crm.Report_Eventamount;
 import report.softpos.crm.Report_Historyb;
 import report.softpos.crm.Report_Jtrophy;
-import report.softpos.crm.Report_Member;
 import report.softpos.crm.Report_Pointuser;
 import report.softpos.crm.Report_Servicetype;
 import report.softpos.crm.Report_Totalamount;
 import report.softpos.crm.Report_Ttrophy;
 import report.softpos.crm.Report_byplu;
-import report.softpos.crm.Report_diff;
-import report.softpos.crm.Report_hispointgu;
-import report.softpos.crm.Report_logfile;
-import report.softpos.crm.Report_memScore;
-import report.softpos.crm.Report_memTran;
-import report.softpos.crm.Report_memcardpro;
-import report.softpos.crm.Report_memd;
-import report.softpos.crm.Report_memevent;
-import report.softpos.crm.Report_mempoint;
-import report.softpos.crm.Report_pointbranch;
 import report.softpos.crm.Report_totaltrophy;
 
 public class Main extends javax.swing.JFrame {
@@ -377,104 +366,49 @@ public class Main extends javax.swing.JFrame {
 
         jMenuItem43.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem43.setText("รายงานประเภทอัตราแต้ม ตามสาขา");
-        jMenuItem43.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem43ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem43);
         jMenu3.add(jSeparator12);
 
         jMenuItem44.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem44.setText("รายงานรายละเอียดข้อมูลสมาชิก");
-        jMenuItem44.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem44ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem44);
 
         jMenuItem45.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem45.setText("รายงานรายละเอียดข้อมูลสมาชิก ตามช่วงการซื้อ");
-        jMenuItem45.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem45ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem45);
 
         jMenuItem46.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem46.setText("รายงานแต้มคงเหลือปัจจุบัน ของสมาชิก");
-        jMenuItem46.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem46ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem46);
 
         jMenuItem47.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem47.setText("รายงานข้อมูลสมาชิกที่เข้าร่วมกิจกรรม");
-        jMenuItem47.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem47ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem47);
 
         jMenuItem48.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem48.setText("รายงานสมาชิกที่ใช้โปรโมชันบัตร");
-        jMenuItem48.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem48ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem48);
 
         jMenuItem49.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem49.setText("รายงานการต่ออายุบัตรของสมาชิก (รายวัน)");
-        jMenuItem49.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem49ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem49);
 
         jMenuItem50.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem50.setText("รายงานประวัติแต้มพิเศษรายสมาชิก");
-        jMenuItem50.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem50ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem50);
 
         jMenuItem51.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem51.setText("รายงานรวมประวัติแต้ม รับเข้า/ใช้ไป ของสมาชิก");
-        jMenuItem51.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem51ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem51);
         jMenu3.add(jSeparator13);
 
         jMenuItem52.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem52.setText("รายงานตรวจสอบยอดซื้อ และแต้มสะสม (Diff. Report)");
-        jMenuItem52.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem52ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem52);
         jMenu3.add(jSeparator14);
 
         jMenuItem53.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jMenuItem53.setText("รายงานบันทึกเหตุการณ์ (Log File)");
-        jMenuItem53.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jMenuItem53ActionPerformed(evt);
-            }
-        });
         jMenu3.add(jMenuItem53);
 
         jMenuBar1.add(jMenu3);
@@ -578,61 +512,6 @@ public class Main extends javax.swing.JFrame {
         Report_totaltrophy frm = new Report_totaltrophy(this, true);
         frm.setVisible(true);
     }//GEN-LAST:event_jMenuItem42ActionPerformed
-
-    private void jMenuItem43ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem43ActionPerformed
-        Report_pointbranch frm = new Report_pointbranch(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem43ActionPerformed
-
-    private void jMenuItem44ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem44ActionPerformed
-        Report_Member frm = new Report_Member(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem44ActionPerformed
-
-    private void jMenuItem45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem45ActionPerformed
-        Report_memTran frm = new Report_memTran(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem45ActionPerformed
-
-    private void jMenuItem46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem46ActionPerformed
-        Report_memScore frm = new Report_memScore(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem46ActionPerformed
-
-    private void jMenuItem47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem47ActionPerformed
-        Report_memevent frm = new Report_memevent(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem47ActionPerformed
-
-    private void jMenuItem48ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem48ActionPerformed
-        Report_memcardpro frm = new Report_memcardpro(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem48ActionPerformed
-
-    private void jMenuItem49ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem49ActionPerformed
-        Report_memd frm = new Report_memd(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem49ActionPerformed
-
-    private void jMenuItem50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem50ActionPerformed
-        Report_mempoint frm = new Report_mempoint(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem50ActionPerformed
-
-    private void jMenuItem51ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem51ActionPerformed
-        Report_hispointgu frm = new Report_hispointgu(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem51ActionPerformed
-
-    private void jMenuItem52ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem52ActionPerformed
-        Report_diff frm = new Report_diff(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem52ActionPerformed
-
-    private void jMenuItem53ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem53ActionPerformed
-        Report_logfile frm = new Report_logfile(this, true);
-        frm.setVisible(true);
-    }//GEN-LAST:event_jMenuItem53ActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
